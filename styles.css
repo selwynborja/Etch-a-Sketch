@@ -1,0 +1,14 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  max-width: 640px;
+  width: 100%;
+  margin: 0 auto;
+  gap: 2px;
+}
+
+.grid-item {
+  border-radius: 4px;
+  background-color: orange;
+  aspect-ratio: 1 / 1;
+}
